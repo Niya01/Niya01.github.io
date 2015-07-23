@@ -1,9 +1,16 @@
 body {
-	background-image: url("http://i1.huffpost.com/gen/995808/images/s-MOREHOUSE-COLLEGE-large.jpg");
+	background-image: url("https://qzprod.files.wordpress.com/2014/12/graduation1.jpg?w=940");
+	background-size: 1280px 1400px;
+    background-repeat: no-repeat;
 	text-align: center;
 }
 
 .white {
 	color: white;
+	text-align: center;
+}
+
+ul {
+	background-color: black;
 	text-align: center;
 }
