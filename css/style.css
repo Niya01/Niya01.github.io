@@ -1,11 +1,9 @@
-ul {
-	background-color: black;
-}
 body {
-	background-image: url("http://hbcubuzz.com/wp-content/uploads/2015/03/o-MOREHOUSE-COLLEGE-facebook.jpg");
+	background-image: url("http://i1.huffpost.com/gen/995808/images/s-MOREHOUSE-COLLEGE-large.jpg");
 	text-align: center;
 }
+
 .white {
 	color: white;
-
+	text-align: center;
 }
