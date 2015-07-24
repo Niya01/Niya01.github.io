@@ -1,6 +1,6 @@
 body {
 	background-image: url("https://qzprod.files.wordpress.com/2014/12/graduation1.jpg?");
-	background-size: 1280px 1500px;
+	background-size:  100% ;
     background-repeat: no-repeat;
 	text-align: center;
 }
@@ -11,11 +11,18 @@ body {
 }
 
 ul {
-	background-color: black;
+	background-color:rgba(0, 0, 0, 0.7);
+	text-align: center;
 }
 
 .centered {
-	margin-right: auto;
-	margin-left: auto;
-	display: ;
+	display: block;
+	margin-right: 80px;
+	margin-left: 80px;
+	
+}
+
+p {
+	background-color: rgba(0, 0, 0, 0.5);\
+	text-align: center;
 }
