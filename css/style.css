@@ -27,8 +27,8 @@ p {
 	text-align: center;
 }
 
-.links{
-	text-align: center;
+ul.nav li { 
+	display: inline-block; 
 }
 
 html {
@@ -42,4 +42,12 @@ html {
 
 .black{
 	color: white;
+}
+.shaniya-inline-list {
+	list-style-type: none;
+	text-align: center;
+}
+.shaniya-inline-list > li{
+	display: inline-block;
+	margin: 10px;
 }
