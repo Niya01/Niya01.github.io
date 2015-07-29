@@ -51,3 +51,20 @@ html {
 	display: inline-block;
 	margin: 10px;
 }
+a { color: rgb(0, 102, 255)
+}
+a.visited, a.hover {color:rgb(0, 102, 255)
+}
+a.special {color: rgb(0, 102, 255)
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        background-color: rgb(0, 0, 204);
+    }
+}
