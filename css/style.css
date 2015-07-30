@@ -67,14 +67,18 @@ ul {
 @media screen and (max-width: 500px) {
     body {
     	background-image: none;
-       #grad1 {
-		    height: 200px;
-		    background: -webkit-linear-gradient(red, blue); 
-		    background: -o-linear-gradient(red, blue); 
-		    background: -moz-linear-gradient(red, blue); 
-		    background: linear-gradient(red, blue);
-		}
+    	background: -webkit-linear-gradient(red, blue); 
+	    background: -o-linear-gradient(red, blue); 
+	    background: -moz-linear-gradient(red, blue); 
+	    background: linear-gradient(red, blue);
     }
+
+	.gradient {
+		background: -webkit-linear-gradient(red, blue); 
+	    background: -o-linear-gradient(red, blue); 
+	    background: -moz-linear-gradient(red, blue); 
+	    background: linear-gradient(red, blue);
+	}
 }
 
 form {
