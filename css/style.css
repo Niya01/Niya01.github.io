@@ -1,9 +1,9 @@
 body {	
-	background-image: url("https://qzprod.files.wordpress.com/2014/12/graduation1.jpg?");
-	background-color: rgb(0, 0, 204);
-	background-size:  100% 100%;
-	background-repeat: no-repeat;
-	text-align: center;
+  background-image: url("https://qzprod.files.wordpress.com/2014/12/graduation1.jpg?");
+  background-color: rgb(0, 0, 125);
+  background-size:  100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .white {
@@ -65,20 +65,13 @@ ul {
 }
 
 @media screen and (max-width: 500px) {
-    body {
-    	background-image: none;
-    	background: -webkit-linear-gradient(red, blue); 
-	    background: -o-linear-gradient(red, blue); 
-	    background: -moz-linear-gradient(red, blue); 
-	    background: linear-gradient(red, blue);
-    }
-
-	.gradient {
-		background: -webkit-linear-gradient(red, blue); 
-	    background: -o-linear-gradient(red, blue); 
-	    background: -moz-linear-gradient(red, blue); 
-	    background: linear-gradient(red, blue);
-	}
+  body {
+    background-image: none;
+    background: -webkit-linear-gradient(red, blue); 
+    background: -o-linear-gradient(red, blue); 
+    background: -moz-linear-gradient(red, blue); 
+    background: linear-gradient(red, blue);
+  }
 }
 
 form {
