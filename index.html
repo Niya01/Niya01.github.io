@@ -6,7 +6,7 @@
 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
 		<link rel="icon" href="favicon.ico" type= "image/x-icon"/>
 	    <script src="js/modernizr.js" type="text/javascipt"></script>
-	   	</head>
+	</head>
 	<body class="row white">
 		<div class="column large-2 medium-2 small-1">
 			&nbsp;
@@ -21,22 +21,26 @@
 			<div> 
 				<ul class="shaniya-inline-list">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="HBCU.html">HBCUs</a></li>
+					<li><a href="Events.html">Events</a></li>
 					<li><a href="Alumni.html">Chicago Alumi Chapters</a></li>
 					<li><a href="success.html">Success Stories</a></li>
 				</ul>
-			<div>
-				<h2 class="white">Comments</h2>
-			    <form>
-			    	Comment: <br>
-			    	<input type="text" name="comments">
-			    	<button type="button">Submit</button>
-			    </form>
+				<div>
+					<h2 class="white">Get Connected!</h2>
+				    <form>
+				    	Name: <br>
+				    	<input type="text" id= "nameinput">
+				    	email: <br>
+				    	<input type="email" id="emailinput">
+				    	<button type="button" onclick="submitInfo()">Submit</button>
+				    </form>
+				</div>
 			</div>
-			</div>
-			</div>
+		</div>
 		<div class="column large-2 medium-2 small-1">
-				&nbsp;
-		</div>	
+			&nbsp;
+		</div>
+		<script src="js/jquery.js" type="text/javascipt"></script>
+		<script src="js/script.js" type="text/javascipt"></script>	
 	</body>
 </html>
