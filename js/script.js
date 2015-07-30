@@ -1,7 +1,5 @@
-function submitInfo() {
-	var name = $("#nameinput").val();
-	var name = $("emailinput").val();
-	alert(name);
-}
-
-alert("hello?");
+/*function submitName() {
+    var name = $("#nameinput").val();
+    alert(name);
+}*/
+alert("hello!");
