@@ -64,7 +64,7 @@ ul {
 	list-style-type: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   body {
     background-image: none;
     background: -webkit-linear-gradient(red, blue); 
