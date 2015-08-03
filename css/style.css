@@ -67,8 +67,8 @@ ul {
 @media screen and (max-width: 400px) {
   body {
     background-image: none;
-    background: -webkit-linear-gradient(yellow, blue); 
-    background: -o-linear-gradient(yellow, blue); 
+    background: -webkit-linear-gradient(red, blue); 
+    background: -o-linear-gradient(yello , blue); 
     background: -moz-linear-gradient(yellow, blue); 
     background: linear-gradient(yellow, blue);
   }

@@ -29,18 +29,28 @@
 // 	});
 // }
 
-function submitInfo(){
-	var data= $("#nameinput").val();
-	$. ajax({
-		url:"http://347e6913.ngrok.com/test",
-		method: "POST",
-		dataType: "JSON",
-		data: { message: data }
-	})
-	.done (function (data) {
-		alert(data.message);
-	})
-	.error (function (error){
-		alert(data.message);
+// function submitInfo(){
+// 	var data= $("#nameinput").val();
+// 	$. ajax({
+// 		url:"http://347e6913.ngrok.com/test",
+// 		method: "POST",
+// 		dataType: "JSON",
+// 		data: { message: data }
+// 	})
+// 	.done (function (data) {
+// 		alert(data.message);
+// 	})
+// 	.error (function (error){
+// 		alert(data.message);
+// 	});
+// }
+
+function submitInfo () {
+	var email = $("#emailinput").val();
+	$.ajax({
+		type: "POST",
+		url: "http://localhost:3000/join",
+		data:{ email: email },
+		success: function (data) { console.log(data), alert("Success!"); }
 	});
 }
