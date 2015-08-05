@@ -55,18 +55,8 @@ function submitInfo () {
 	});
 }
 
- var image1 = new Image()
- image1.src = "https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/1918349_1243553161812_7632156_n.jpg?oh=65836c7a36f9d8cd795afc1e40817589&oe=56480037"
-var image2 = new Image()
-image2.src = "https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/1918349_1243553161812_7632156_n.jpg?oh=65836c7a36f9d8cd795afc1e40817589&oe=56480037"
-var image3 = new Image()
-image3.src = ""
-function slideit(){
-     var step=1;
-   	document.images.slide.src = eval("image"+step+".src")
-  	if(step<2)
-    step++
-    step=1
-  	setTimeout("slideit()",2500)
-}
-slideit();
+$(document).ready(function(){
+  $('.your-class').slick({
+    setting-name: setting-value
+  });
+});
